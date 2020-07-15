@@ -1,0 +1,33 @@
+#box_container {
+    height: 545px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 40px auto 80px;
+    grid-template-areas: 
+    "header"
+    "search_bar"
+    "footer";
+}
+
+#header {
+    background-color: teal;
+    display: flex;
+}
+
+#content_container {
+    
+}
+
+#footer_container {
+    background-color: teal;
+    display: grid;
+}
+
+#box_footer_1 {
+    display: flex;
+}
+
+#box_footer_2 {
+    display: flex;
+}
