@@ -1,5 +1,9 @@
+* {
+    outline: 1px solid red;
+}
+
 #box_container {
-    height: 545px;
+    height: 589px;
     width: 100%;
     background-color: white;
     display: grid;
@@ -11,16 +15,38 @@
 }
 
 #header {
-    background-color: teal;
+    font-size: 12px;
     display: flex;
+    justify-content: flex-end;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
 
 #content_container {
     
 }
 
 #footer_container {
-    background-color: teal;
     display: grid;
 }
 
@@ -29,5 +55,5 @@
 }
 
 #box_footer_2 {
-    display: flex;
+    
 }
