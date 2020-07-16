@@ -1,9 +1,14 @@
 * {
-    outline: 1px solid red;
+    
+    font-family: Arial, sans-serif;
+}
+    
+#title_icn {
+    border-radius: 50%;
 }
 
 #box_container {
-    height: 589px;
+    height: 595px;
     width: 100%;
     background-color: white;
     display: grid;
@@ -19,6 +24,27 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.google_search, .feeling_lucky {
+    line-height: 27px;
+    height: 36px;
+    margin: 0px 4px;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    padding: 0 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.google_search:hover, .feeling_lucky:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+} 
 
 ul {
     list-style-type: none;
@@ -39,15 +65,62 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     color: rgba(0,0,0,.54);
+
 }
 
+#user_icon {
+    border-radius: 50%;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+   
 
 #content_container {
-    
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#google_icon {
+    width: 272px;
+    height: 92px;
+}
+
+#search_bar {
+    width: 527px;
+    height: 34px;
+    font-size: 16px;
+    padding: 5px 47.5px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+#mag-glass{
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 920px;
+    top: 300px;
+    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -250px -36px;
+    opacity: 0.3;
+}
+
+#google_lng {
+    font-size: small;
 }
 
 #footer_container {
     display: grid;
+    font-size: small;
+    background-color: #f2f2f2;
 }
 
 #box_footer_1 {

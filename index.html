@@ -2,10 +2,13 @@
 
 <html>
 <head>
+
     <!--todo:google icon image-->
-    <title>Google</title>
+    
     <link rel="stylesheet" href="Styles/reset.css">
     <link rel="stylesheet" href="Styles/style.css"> 
+    <link rel="icon" type="image/png" href="title_icon.png" id="title_icn">
+    <title>Google</title>
 </head>
 <body>
     <div id="box_container">
@@ -14,22 +17,22 @@
                 <li><a href="" style="color: black;">Gmail</a></li>
                 <li><a href="" style="color: black;">Images</a></li>
                 <li><a href="">google_apps</a></li>
-                <li><a href="">Sign in</a></li>
+                <li><a href=""><img src="user_icon.png" id="user_icon"></a></li>
         </ul>
         </div>
 
         <div id="content_container">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-            alt= "google word icon" 
-            class="google_icon">
-
-            <!--todo:button image / edit toolbar-->
-            <button id="search_button">search</button>
-
-            <input type="text" id="search_bar">
-            <button id="google_search">Google search</button>
-            <button id="feeling lucky">I'm feeling lucky</button>
-            <p>Google offered in: <a href="">Español(Latinoamerica)</a></p>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"alt= "google word icon" id="google_icon">
+            <div id="search_tool">
+                <!--todo:button image / edit toolbar-->
+                <input type="text" id="search_bar">
+                <div id="mag-glass"></div>
+            </div>
+            <div id="search_buttons">
+                <button class="google_search">Google search</button>
+                <button class="feeling_lucky">I'm feeling lucky</button>
+            </div>
+            <p id="google_lng">Google offered in: <a href="">Español(Latinoamerica)</a></p>
         </div>
 
         <div id="footer_container">
@@ -45,10 +48,11 @@
                     <li><a href="">Business</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">How search works</a></li>
-                    
-                    <li style="float: right;"><a href="">Privacy</a></li>
-                    <li style="float: right;"><a href="">Terms</a></li>
+
                     <li style="float: right;"><a href="">Settings</a></li>
+                    <li style="float: right;"><a href="">Terms</a></li>
+                    <li style="float: right;"><a href="">Privacy</a></li>
+                    
                 </ul>
             </div>
         </div>
